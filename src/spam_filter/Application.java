@@ -8,7 +8,7 @@ import java.util.List;
  * Driver Application.
  */
 public class Application {
-	public static final String INPUT_RESOURCE = "resources/SMSSpam";
+	public static final String INPUT_RESOURCE = "/user/local/resources/SMSSpam";
 	// Number of messages to test against.
 	private static final int TEST_SAMPLES = 50;
 

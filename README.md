@@ -1,6 +1,6 @@
 # spam-filter
 
-This small program was modeled after Paul Grahms write up to create an automated process to filter out spam messages without leveraging any AI technologies or techniques. 
+This small program was modeled after Paul Grahms write up to create an automated process to filter out spam messages without leveraging any AI technologies or techniques. The application reads a corpus of spam and non spam messages where each line identifies the message body as `spam` or `ham`.
 
 The write up can be found in the following link http://www.paulgraham.com/spam.html. The program is developed in JAVA 8 and to maintain simplicity I only leveraged JRE native classes. The application driver program is `Application.java` and for demonstration purposes there are two outputs. The first output is data visualization of parsed input file as an example of data analytics. Data visualization is powerful and it is key in understanding the data when developing data driven solutions, even more so when developing distributed solutions. The second output illustrates comparison of the spam detector accuracy. For demonstration purposes I perform two tests to determine the accuracy of the spam filter with and with out uninteresting words. 
 
